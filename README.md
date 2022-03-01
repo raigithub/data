@@ -17,6 +17,8 @@ select * from dbo.['Table 2$'] LEFT JOIN dbo.['Table 1$']on dbo.['Table 2$'].[  
  select*from dbo.['Table 2$']RIGHT JOIN dbo.['Table 1$']on dbo.['Table 2$'].Country=dbo.['Table 1$'].Country
  ![image](https://user-images.githubusercontent.com/100667693/156120520-900d32d4-81e2-46b9-b84b-604c567c604d.png)
 select *from dbo.['Table 2$']FULL OUTER JOIN dbo.['Table 1$']on dbo.['Table 2$'].[Units Sold]=dbo.['Table 1$'].[Units Sold]
+![image](https://user-images.githubusercontent.com/100667693/156120751-1637108c-ef7c-4f4d-9008-ef71b67423c8.png)
+
 
 
  
