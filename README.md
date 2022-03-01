@@ -10,6 +10,11 @@ select top 10* from [DataDB].[dbo].['sample-csv-file-for-testing$'] ORDER BY[ Gr
  ![image](https://user-images.githubusercontent.com/100667693/156119625-465864f8-17b2-4b93-8c77-af0b70761db1.png)
   select Segment, SUM([  Sales ]) TOTAL_Sales from [DataDB].[dbo].['sample-csv-file-for-testing$']  GROUP BY Segment ORDER BY TOTAL_Sales DESC;
   ![image](https://user-images.githubusercontent.com/100667693/156119788-a333da35-f439-4df7-a6b6-c5dc97edd026.png)
+  select Segment, SUM([  Sales ]) TOTAL_Sales from [DataDB].[dbo].['sample-csv-file-for-testing$'] GROUP BY Segment having SUM([  Sales ])>2000000 ORDER BY TOTAL_Sales DESC;
+  
+
+
+
 
  
 
