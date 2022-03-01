@@ -6,6 +6,7 @@ select top 10* from [DataDB].[dbo].['sample-csv-file-for-testing$'] ORDER BY[ Gr
  ![image](https://user-images.githubusercontent.com/100667693/156119192-50babb5c-ca6b-40b9-9a71-aa15462ab948.png)
   select Country, SUM([  Sales ]) TOTAL_Sales From [DataDB].[dbo].['sample-csv-file-for-testing$'] GROUP BY Country
   ![image](https://user-images.githubusercontent.com/100667693/156119426-6c52d46d-d4f6-46b2-b96e-9c10722ab008.png)
+ select Country, SUM([ Profit ])  TOTAL_Profit from [DataDB].[dbo].['sample-csv-file-for-testing$'] GROUP BY Country 
 
 
 
