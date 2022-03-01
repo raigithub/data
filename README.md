@@ -15,6 +15,8 @@ select top 10* from [DataDB].[dbo].['sample-csv-file-for-testing$'] ORDER BY[ Gr
 select * from dbo.['Table 2$'] LEFT JOIN dbo.['Table 1$']on dbo.['Table 2$'].[  Sales ]=dbo.['Table 1$'].[  Sales ]
 ![image](https://user-images.githubusercontent.com/100667693/156120272-55a7bbf5-9356-4b3c-bc6b-421ef444865e.png)
  select*from dbo.['Table 2$']RIGHT JOIN dbo.['Table 1$']on dbo.['Table 2$'].Country=dbo.['Table 1$'].Country
+ ![image](https://user-images.githubusercontent.com/100667693/156120520-900d32d4-81e2-46b9-b84b-604c567c604d.png)
+
 
 
  
